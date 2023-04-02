@@ -1,3 +1,21 @@
 .right-aligned{
     justify-content: flex-end;
 }
+.profile {
+    width: 25vh;
+}
+.bg{
+    position: absolute;
+    top:100px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    background-image: url("../assets/background.jpg");
+    background-size: cover;
+}
+.navbar{
+    height:100px;
+}
+.title{
+    font-size: 5vh;
+}

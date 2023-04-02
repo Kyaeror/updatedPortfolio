@@ -8,15 +8,15 @@ import '../style/style.css'
 
 function Header() {
     return(
-        <Navbar bg="info" expand="lg">
-            <NavbarBrand>Brian Chiang</NavbarBrand>
+        <Navbar className='navbar' bg="dark" expand="lg">
+            <NavbarBrand className='text-white'>Brian Chiang</NavbarBrand>
             <NavbarToggle />
             <NavbarCollapse className="right-aligned">
                 <Nav>
-                    <NavLink className="nav-link" to="/about">About Me</NavLink>
-                    <NavLink className="nav-link" to="/about">About Me</NavLink>
-                    <NavLink className="nav-link" to="/about">About Me</NavLink>
-                    <NavLink className="nav-link" to="/about">About Me</NavLink>
+                    <NavLink className="nav-link text-white" to="/">About Me</NavLink>
+                    <NavLink className="nav-link text-white" to="/project">Projects</NavLink>
+                    <NavLink className="nav-link text-white" to="/resume">Resume</NavLink>
+                    <NavLink className="nav-link text-white" to="/contact">Contact</NavLink>
                 </Nav>
             </NavbarCollapse>
         </Navbar>
