@@ -8,6 +8,7 @@ import Blog from '../assets/Blog.png';
 import passwordGenerator from '../assets/passwordGenerator.png';
 import Quiz from '../assets/quiz.png';
 import noteTaker from '../assets/noteTaker.png';
+import textBaseGame from '../assets/text-base-game.png';
 
 
 function Project() {
@@ -49,6 +50,12 @@ function Project() {
         description: `This is a application that lets you save notes.`,
         githubURL: `https://github.com/Kyaeror/noteTaker`
     },
+    {
+      title: `Text based game`,
+      imageURL: textBaseGame,
+      description: `This is an interactive game that authenticates its user, can save and load your file with your character information.`,
+      githubURL: `https://github.com/Kyaeror/noteTaker`
+    }
   ];
 
   return (
